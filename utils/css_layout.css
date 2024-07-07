@@ -107,22 +107,8 @@ div.content div.float-right {
     bottom: 0;
     overflow: auto;
     min-width: 500px;
-    margin-left: 20%;
-    margin-right: 20%;
-}
-
-@media (min-width: 768px) {
-    #main {
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-}
-
-@media (min-width: 1024px) {
-    #main {
-        margin-left: 15%;
-        margin-right: 15%;
-    }
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 #logo {
@@ -130,7 +116,7 @@ div.content div.float-right {
     position: absolute;
     top: 3px;
     right: 50px;
-    max-height: 60px;
+    max-height: 160px;
 }
 
 #main>div.content {
@@ -154,8 +140,12 @@ div.content div.float-right {
     padding: 10px 0;
     margin: 0 50px;
     margin-bottom: 5px;
-    font-size: 1.2em;
+    font-size: 1.2em !important;
     font-weight: 600;
+}
+
+.subtitle {
+    font-size: 1.2em !important;
 }
 
 #main div.linebreak {
