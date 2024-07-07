@@ -111,6 +111,26 @@ div.content div.float-right {
     padding-right: 20%;
 }
 
+
+/* 分辨率小于768px时的样式 */
+
+@media (max-width: 768px) {
+    .main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+
+/* 分辨率在768px到1024px之间的样式 */
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .main {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+}
+
 #logo {
     display: block;
     position: absolute;
