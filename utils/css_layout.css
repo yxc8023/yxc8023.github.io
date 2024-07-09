@@ -131,6 +131,10 @@ div.content div.float-right {
     }
 }
 
+.underline {
+    text-decoration: underline;
+}
+
 #logo {
     display: block;
     position: absolute;

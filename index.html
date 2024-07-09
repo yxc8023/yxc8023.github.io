@@ -7,10 +7,10 @@
         window.onload = function() {
             var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
             if (isMobile) {
-                alert("建议使用电脑打开手机端页面未适应，倒数三秒跳转...");
+                alert("Please open on a computer, redirecting in 3 seconds..");
                 setTimeout(function() {
                     window.location.href = 'main.html';
-                }, 3000); // 3秒后跳转
+                }, 3000); 
             } else {
                 window.location.href = 'main.html';
             }
